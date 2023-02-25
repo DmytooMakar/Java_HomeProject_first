@@ -28,7 +28,9 @@ public class Main {
 			group.addStudent(student7);
 			group.addStudent(student8);
 			group.addStudent(student9);
-			System.out.println(group.searchStudentByLastName("Val`ko"));
+			System.out.println(group.searchStudentByLastName("Makov"));
+			System.out.println(group.removeStudentByID(5));
+			System.out.println(group.removeStudentByID(5));
 		} catch (StudentNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

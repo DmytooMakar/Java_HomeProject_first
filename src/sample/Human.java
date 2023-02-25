@@ -5,6 +5,15 @@ public class Human {
 	private String lastName;
 	private Gender gender;
 	
+	public Human(String name, String lastName, Gender gender) {
+		super();
+		this.name = name;
+		this.lastName = lastName;
+		this.gender = gender;
+	}
+	public Human() {
+		super();
+	}
 	public String getName() {
 		return name;
 	}
@@ -24,20 +33,8 @@ public class Human {
 		this.gender = gender;
 	}
 	
-	public Human(String name, String lastName, Gender gender) {
-		super();
-		this.name = name;
-		this.lastName = lastName;
-		this.gender = gender;
-	}
-	public Human() {
-		super();
-	}
-	
 	@Override
 	public String toString() {
 		return "Numan [name=" + name + ", lastName=" + lastName + ", gender=" + gender + "]";
 	}
-	
-	
 }
