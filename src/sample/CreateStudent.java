@@ -14,6 +14,9 @@ public class CreateStudent {
 		Gender gender = Gender.valueOf(sc.nextLine().toUpperCase());
 		System.out.println("Enter student id");
 		int id = sc.nextInt();
+		
+		sc.nextLine();
+		
 		System.out.println("Enter student group Name");
 		String groupName = sc.nextLine();
 		System.out.println("This all");
